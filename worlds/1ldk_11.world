@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <world name="1ldk_11">
+    <scene>
+        <ambient>0.7 0.7 0.7 1</ambient>
+        <background>0.1 0.1 0.1 1</background>
+    </scene>
+
+    <light name="sunny_1" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>-3.0 -3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_2" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>-3.0 0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_3" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>-3.0 3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+  <light name="sunny_4" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>0 -3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_5" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_6" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>0 3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+  <light name="sunny_7" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>3.0 -3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_8" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>3.0 0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <light name="sunny_9" type="point">
+      <cast_shadows>1</cast_shadows>
+      <pose>3.0 3.0 2.5 0 0 0</pose>
+      <diffuse>0.1 0.1 0.1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+    </physics>
+
+    <include>
+      <uri>model://sun</uri>
+      <pose>0 0 5.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://layouts/1ldk_11</uri>
+      <static>true</static>
+    </include> 
+
+  </world>
+</sdf>

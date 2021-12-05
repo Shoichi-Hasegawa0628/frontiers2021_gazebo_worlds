@@ -1,0 +1,39 @@
+model {
+  file: "model.sdf"
+}
+name: "ir_bath_slipper"
+description: "bath slipper"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Reef"
+}
+annotations {
+  key: "gtin"
+  value: "637439043386"
+}
+annotations {
+  key: "mpn"
+  value: "rf-001593blp"
+}
+annotations {
+  key: "sku"
+  value: "RF-001593BLP"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Shoe"
+}

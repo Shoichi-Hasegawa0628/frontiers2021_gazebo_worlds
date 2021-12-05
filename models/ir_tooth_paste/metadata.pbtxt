@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "ir_tooth_paste"
+description: "tooth paste"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Marc"
+}
+annotations {
+  key: "gtin"
+  value: "00621732300024"
+}
+annotations {
+  key: "sku"
+  value: "00621732300024"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Bottles and Cans and Cups"
+}

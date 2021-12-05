@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="nrp_7eleven_bottle_coffee">
+    <static>1</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://nrp_7eleven_bottle_coffee/meshes/nrp_7eleven_bottle_coffee.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.5 0.5 0.5 1</emissive>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://nrp_7eleven_bottle_coffee/meshes/nrp_7eleven_bottle_coffee.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>frontiers2021_gazebo_worlds</name>
+  <version>0.1.0</version>
+  <description>The 'frontiers2021_gazebo_worlds' package provides a collection of Gazebo worlds and models for frontiers2021.</description>
+
+  <maintainer email="hasegawa.shoichi@em.ci.ritsumei.ac.jp">Shoichi Hasegawa</maintainer>
+  <license>MIT</license>
+<!--  <url type="website">https://gitlab.com/naripa/nrp_gazebo_worlds</url>-->
+  <author email="hasegawa.shoichi@em.ci.ritsumei.ac.jp">Shoichi Hasegawa</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export></export>
+</package>

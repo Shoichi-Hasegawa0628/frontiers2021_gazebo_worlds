@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<sdf version="1.5">
+<model name="1ldk_11">
+  <static>true</static>
+    <link name="link">
+
+      <collision name="collision">
+        <pose>-7.0 5.5 0.0 1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://layouts/1ldk_11/meshes/1ldk_11.obj</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>-7.0 5.5 0.0 1.57 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://layouts/1ldk_11/meshes/1ldk_11.obj</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.1 0.1 0.1 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

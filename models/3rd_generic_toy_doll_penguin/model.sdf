@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="3rd_generic_toy_doll_penguin">
+    <static>1</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://3rd_generic_toy_doll_penguin/meshes/3rd_generic_toy_doll_penguin.dae</uri>
+            <scale>2 2 2</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.5 0.5 0.5 1</emissive>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://3rd_generic_toy_doll_penguin/meshes/3rd_generic_toy_doll_penguin.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
