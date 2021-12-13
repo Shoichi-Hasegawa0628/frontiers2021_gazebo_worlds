@@ -9,6 +9,7 @@
           <mesh>
             <uri>model://3rd_generic_toy_doll_penguin/meshes/3rd_generic_toy_doll_penguin.dae</uri>
             <scale>2 2 2</scale>
+
           </mesh>
         </geometry>
         <material>
