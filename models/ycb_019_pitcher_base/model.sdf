@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <model name='ycb_019_pitcher_base'>
+  <static>true</static>
     <link name='body'>
-      <inertial>
+      <!-- <inertial>
         <mass>3.44118000858</mass>
         <pose>-0.0134134466187 0.0334773624643 0.122636247613 0 0 0</pose>
         <inertia>
@@ -13,7 +14,7 @@
           <iyz>-0.000146469008767</iyz>
           <izz>0.00635097856687</izz>
         </inertia>
-      </inertial>
+      </inertial> -->
       <visual name='ycb_019_pitcher_base_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -22,7 +23,7 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name='ycb_019_pitcher_base_collision'>
+      <!-- <collision name='ycb_019_pitcher_base_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -30,7 +31,7 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

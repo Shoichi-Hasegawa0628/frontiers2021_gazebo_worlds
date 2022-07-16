@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <model name='ycb_072-a_toy_airplane'>
+  <static>true</static>
     <link name='body'>
-      <inertial>
+      <!-- <inertial>
         <mass>2.11218460651</mass>
         <pose>0.0357247570654 0.0308073991106 0.0909231453241 0 0 0</pose>
         <inertia>
@@ -13,7 +14,7 @@
           <iyz>-0.000842054111439</iyz>
           <izz>0.012611321647</izz>
         </inertia>
-      </inertial>
+      </inertial> -->
       <visual name='ycb_072-a_toy_airplane_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -22,7 +23,7 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name='ycb_072-a_toy_airplane_collision'>
+      <!-- <collision name='ycb_072-a_toy_airplane_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -30,7 +31,7 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

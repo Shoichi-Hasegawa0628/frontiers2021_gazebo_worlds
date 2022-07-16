@@ -2,7 +2,7 @@
 
 <sdf version="1.5">
   <model name="3rd_generic_toy_doll_penguin">
-    <static>1</static>
+    <static>true</static>
     <link name="link">
       <visual name="visual">
         <geometry>
@@ -16,13 +16,13 @@
           <emissive>0.5 0.5 0.5 1</emissive>
         </material>
       </visual>
-      <collision name="collision">
+      <!-- <collision name="collision">
         <geometry>
           <mesh>
             <uri>model://3rd_generic_toy_doll_penguin/meshes/3rd_generic_toy_doll_penguin.dae</uri>
           </mesh>
         </geometry>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

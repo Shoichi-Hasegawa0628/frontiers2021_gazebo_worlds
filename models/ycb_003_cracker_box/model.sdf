@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <model name='ycb_003_cracker_box'>
+  <static>true</static>
     <link name='body'>
-      <inertial>
+      <!-- <inertial>
         <mass>2.93393821406</mass>
         <pose>-0.0148535577968 -0.0142050544666 0.10220486839 0 0 0</pose>
         <inertia>
@@ -13,7 +14,7 @@
           <iyz>3.89306936817e-05</iyz>
           <izz>0.00713499707215</izz>
         </inertia>
-      </inertial>
+      </inertial> -->
       <visual name='ycb_003_cracker_box_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -22,7 +23,7 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name='ycb_003_cracker_box_collision'>
+      <!-- <collision name='ycb_003_cracker_box_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -30,7 +31,7 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

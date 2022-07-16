@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <model name='ycb_011_banana'>
+  <static>true</static>
     <link name='body'>
-      <inertial>
+      <!-- <inertial>
         <mass>0.231568904038</mass>
         <pose>-0.00993610246452 0.00407267911172 0.0171268891715 0 0 0</pose>
         <inertia>
@@ -13,7 +14,7 @@
           <iyz>-2.99755451446e-06</iyz>
           <izz>0.000575828698442</izz>
         </inertia>
-      </inertial>
+      </inertial> -->
       <visual name='ycb_011_banana_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -22,7 +23,7 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name='ycb_011_banana_collision'>
+      <!-- <collision name='ycb_011_banana_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -30,7 +31,7 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

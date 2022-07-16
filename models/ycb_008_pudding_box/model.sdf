@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <model name='ycb_008_pudding_box'>
+  <static>true</static>
     <link name='body'>
-      <inertial>
+      <!-- <inertial>
         <mass>0.461392313357</mass>
         <pose>0.00151764956966 0.018795882065 0.0186577019787 0 0 0</pose>
         <inertia>
@@ -13,7 +14,7 @@
           <iyz>-2.84182045532e-06</iyz>
           <izz>0.000744234813757</izz>
         </inertia>
-      </inertial>
+      </inertial> -->
       <visual name='ycb_008_pudding_box_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
@@ -22,7 +23,7 @@
           </mesh>
         </geometry>
       </visual>
-      <collision name='ycb_008_pudding_box_collision'>
+      <!-- <collision name='ycb_008_pudding_box_collision'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
@@ -30,7 +31,7 @@
           </mesh>
         </geometry>
         <max_contacts>10</max_contacts>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>

@@ -2,7 +2,7 @@
 
 <sdf version="1.5">
   <model name="nrp_7eleven_bag_chips_consomme">
-    <static>1</static>
+    <static>true</static>
     <link name="link">
       <visual name="visual">
         <geometry>
@@ -14,13 +14,13 @@
           <emissive>0.5 0.5 0.5 1</emissive>
         </material>
       </visual>
-      <collision name="collision">
+      <!-- <collision name="collision">
         <geometry>
           <mesh>
             <uri>model://nrp_7eleven_bag_chips_consomme/meshes/nrp_7eleven_bag_chips_consomme.dae</uri>
           </mesh>
         </geometry>
-      </collision>
+      </collision> -->
     </link>
   </model>
 </sdf>
